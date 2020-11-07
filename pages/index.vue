@@ -1,7 +1,7 @@
 <template>
   <div class="h-screen flex flex-col justify-between">
-    <div class="container mx-auto">
-      <div class="pt-8 px-4 sm:pt-12 sm:px-6 md:pt-20 xl:pt-24">
+    <div class="container mx-auto h-full">
+      <div class="h-full pt-8 px-4 sm:pt-12 sm:px-6 md:pt-20 xl:pt-24">
         <h1 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
           We are not a number.
         </h1>
