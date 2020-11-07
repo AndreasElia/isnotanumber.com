@@ -38,6 +38,7 @@ export default {
   ** Global CSS
   */
   css: [
+    '~/assets/css/tailwind.css',
     'aos/dist/aos.css',
   ],
   /*
