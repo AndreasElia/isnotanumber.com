@@ -32,6 +32,6 @@
       </div>
     </div>
 
-    <div class="font-sans antialiased text-white bg-gray-500"></div>
+    <div class="font-sans antialiased text-white bg-gray-500 aos-animate hidden" style="display: none !important;"></div>
   </div>
 </template>
