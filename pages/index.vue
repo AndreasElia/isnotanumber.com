@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto flex flex-col h-full justify-between">
+  <div class="min-h-screen container mx-auto flex flex-col justify-between">
     <div class="px-4 sm:px-6">
       <h1 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
         We are not a number.
