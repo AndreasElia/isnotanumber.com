@@ -5,7 +5,7 @@ export default {
     base: '/',
     routes: [
       {
-        path: ':slug',
+        path: '/blog/:slug',
         component: 'pages/blog/_slug.vue',
         name: 'article'
       }
