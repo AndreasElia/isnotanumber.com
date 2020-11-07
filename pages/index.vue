@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto flex flex-col h-screen justify-between">
-    <div class="pt-8 px-4 sm:pt-12 sm:px-6 md:pt-20 xl:pt-24">
+    <div class="px-4 sm:px-6">
       <h1 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
         We are not a number.
       </h1>
@@ -10,7 +10,7 @@
         <span class="text-pink-700">you can stand out.</span>
       </h2>
     </div>
-    <div class="pb-8 px-4 text-xs text-gray-700 sm:pb-12 sm:px-6 md:pb-20 xl:pb-24">
+    <div class="px-4 text-xs text-gray-700 sm:px-6">
       <div class="flex justify-between items-center">
         <p>
           Company registered in England No: <a href="https://beta.companieshouse.gov.uk/company/12813978" target="_blank">12813978</a><br>
