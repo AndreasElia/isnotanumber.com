@@ -61,7 +61,18 @@ module.exports = {
       'nuxt.config.js'
     ],
     options: {
-      whitelist: ['h1', 'h2', 'h3', 'p', 'blockquote', 'strong']
+      whitelist: [
+        'h1',
+        'h2',
+        'h3',
+        'p',
+        'blockquote',
+        'strong',
+        'font-sans',
+        'antialiased',
+        'text-white',
+        'bg-gray-500',
+      ]
     }
   }
 }
