@@ -1,7 +1,7 @@
 ---
-title: Test
+title: My first Blog Post
 description: Learning how to use @nuxt/content to create a blog
-alt: test
+alt: my first blog post
 ---
 
 Hello! We're just testing the content module.
