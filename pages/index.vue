@@ -3,7 +3,7 @@
     <div class="h-screen flex flex-col justify-between">
       <div class="mt-8 px-4 sm:mt-12 sm:px-6 md:mt-20 xl:mt-24">
         <h1 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-          We are Not a Number.
+          We are not a number.
         </h1>
         <h2 class="mt-4 text-4xl tracking-tight leading-10 font-extrabold text-pink-500 sm:text-5xl sm:leading-none md:text-6xl">
           Why fit in when
