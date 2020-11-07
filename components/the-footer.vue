@@ -1,8 +1,5 @@
 <template>
-  <div
-    class="my-16 text-xs text-gray-400 text-center md:my-20"
-    data-aos="fade-up"
-  >
+  <div class="my-16 text-xs text-gray-400 text-center md:my-20">
     <div class="text-center">
       <p>
         The Garden Cottage, Walnut Tree Farm, Corse Lawn, Gloucester, United
@@ -32,6 +29,9 @@
       </div>
     </div>
 
-    <div class="font-sans antialiased text-white bg-gray-500 aos-animate hidden" style="display: none !important;"></div>
+    <div
+      class="font-sans antialiased text-white bg-gray-500 aos-animate hidden"
+      style="display: none !important"
+    ></div>
   </div>
 </template>
