@@ -51,3 +51,7 @@
     <the-footer />
   </div>
 </template>
+
+<style scoped>
+@import '~/assets/css/aos.css';
+</style>
