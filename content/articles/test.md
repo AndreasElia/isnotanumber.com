@@ -8,6 +8,12 @@ Hello! We're just testing the content module.
 
 # Foo
 
+Bar
+
 ## Foo
 
+Bar
+
 ### Foo
+
+Bar
