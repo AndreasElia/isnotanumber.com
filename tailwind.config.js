@@ -54,8 +54,7 @@ module.exports = {
     require('@tailwindcss/typography'),
   ],
   purge: {
-    // enabled: process.env.NODE_ENV === 'production',
-    enabled: process.env.NODE_ENV === 'foo',
+    enabled: process.env.NODE_ENV === 'production',
     content: [
       'components/**/*.vue',
       'layouts/**/*.vue',
