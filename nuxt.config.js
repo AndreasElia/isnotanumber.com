@@ -22,22 +22,29 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: 'data:image/x-icon;,' }
     ],
     bodyAttrs: {
-      class: 'font-sans antialiased text-gray-900'
+      class: 'font-sans antialiased text-white bg-gray-500'
     },
   },
   /*
   ** Customize the progress-bar color
   */
   loading: { color: '#fff' },
+  components: {
+    dirs: [
+      '~/components',
+    ]
+  },
   /*
   ** Global CSS
   */
   css: [
+    'aos/dist/aos.css',
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '@/plugins/aos.js',
   ],
   /*
   ** Nuxt.js dev-modules

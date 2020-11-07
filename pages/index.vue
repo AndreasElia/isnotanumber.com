@@ -1,29 +1,53 @@
 <template>
-  <div class="min-h-screen py-6 container mx-auto flex flex-col justify-between sm:py-12">
-    <div class="px-4 sm:px-6">
-      <h1 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-        We are not a number.
-      </h1>
-      <h2 class="pt-4 text-4xl tracking-tight leading-10 font-extrabold text-pink-500 sm:text-5xl sm:leading-none md:text-6xl">
-        Why fit in when
-        <br class="xl:hidden">
-        <span class="text-pink-700">you can stand out.</span>
-      </h2>
+  <div class="my-6 container mx-auto sm:my-12">
+    <div class="flex justify-between items-center">
+      <logo />
+
+      <NuxtLink :to="{ name: 'blog' }">
+        Blog
+      </NuxtLink>
     </div>
-    <div class="px-4 text-xs text-gray-700 sm:px-6">
-      <div class="flex justify-between items-center">
-        <p>
-          Company registered in England No: <a href="https://beta.companieshouse.gov.uk/company/12813978" target="_blank">12813978</a><br>
-          The Garden Cottage, Walnut Tree Farm, Corse Lawn,
-          <br class="md:hidden">
-          Gloucester, United Kingdom, GL19 4ND
-        </p>
-        <a href="https://www.linkedin.com/company/isnotanumber" target="_blank">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-          </svg>
-        </a>
+
+    <h2 class="mt-16 lg:mt-32 text-2xl tracking-loose leading-10 font-bold sm:text-5xl sm:leading-none md:text-6xl">
+      Why fit in when you
+      <br class="hidden md:block">
+      <div class="lg:mt-5">
+        can <span class="bg-gray-400 bg-opacity-25 rounded-md px-2 lg:px-4">stand out.</span>
+      </div>
+    </h2>
+
+    <!-- Work -->
+    <div class="mt-16 md:mt-32 lg:mt-40 grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12" data-aos="fade-up">
+      <div>
+        <div class="w-full h-64 bg-gray-400 rounded-md bg-cover bg-center" style="background-image: url(https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);"></div>
+        <h3 class="mt-1">
+          balansa+
+        </h3>
+      </div>
+      <div>
+        <div class="w-full h-64 bg-gray-400 rounded-md bg-cover bg-center" style="background-image: url(https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);"></div>
+        <h3 class="mt-1">
+          My Go Hire
+        </h3>
+      </div>
+      <div>
+        <div class="w-full h-64 bg-gray-400 rounded-md bg-cover bg-center" style="background-image: url(https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);"></div>
+        <h3 class="mt-1">
+          GradSmart
+        </h3>
+      </div>
+      <div>
+        <div class="w-full h-64 bg-gray-400 rounded-md bg-cover bg-center" style="background-image: url(https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);"></div>
+        <h3 class="mt-1">
+          Craftr
+        </h3>
       </div>
     </div>
+
+    <!-- All good with you -->
+    <all-the-same />
+
+    <!-- Footer -->
+    <the-footer />
   </div>
 </template>
