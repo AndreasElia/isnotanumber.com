@@ -2,14 +2,7 @@
 export default {
   target: 'static',
   router: {
-    base: '/',
-    routes: [
-      {
-        path: '/blog/:slug',
-        component: 'pages/blog/_slug.vue',
-        name: 'article'
-      }
-    ]
+    base: '/'
   },
   mode: 'spa',
   /*
