@@ -7,16 +7,33 @@
         Articles
       </h1>
 
-      <ul>
-        <li v-for="article of articles" :key="article.slug">
+      <div class="mt-12">
+        <div v-for="article of articles" :key="article.slug">
           <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
-            <div>
-              <h2>{{ article.title }}</h2>
+            <div class="bg-gray-200 rounded-md px-4 py-2">
+              <h2 class="font-semibold">
+                {{ article.title }}
+              </h2>
               <p>{{ article.description }}</p>
             </div>
           </NuxtLink>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  async asyncData ({ $content, params }) {
+    const articles = await $content('articles', params.slug)
+      .only(['title', 'description', 'slug'])
+      .sortBy('createdAt', 'asc')
+      .fetch()
+
+    return {
+      articles
+    }
+  }
+}
+</script>

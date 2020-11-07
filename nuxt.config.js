@@ -5,6 +5,9 @@ export default {
     base: '/'
   },
   mode: 'spa',
+  generate: {
+    fallback: true
+  },
   /*
   ** Headers of the page
   */
