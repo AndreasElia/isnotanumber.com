@@ -31,5 +31,7 @@
         </a>
       </div>
     </div>
+
+    <div class="font-sans antialiased text-white bg-gray-500"></div>
   </div>
 </template>
