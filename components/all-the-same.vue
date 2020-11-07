@@ -10,8 +10,8 @@
     </h3>
 
     <div class="mt-6">
-      <a href="mailto:info@isnotanumber.com" class="lg:text-4xl">
-        info@isnotanumber.com
+      <a href="mailto:support@isnotanumber.com" class="underline hover:no-underline lg:text-4xl">
+        Send us an email
       </a>
     </div>
   </div>
