@@ -1,10 +1,10 @@
 
 export default {
+  mode: 'universal',
   target: 'static',
   router: {
     base: '/'
   },
-  mode: 'spa',
   generate: {
     fallback: true
   },
