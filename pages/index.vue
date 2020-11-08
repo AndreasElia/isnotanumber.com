@@ -1,32 +1,32 @@
 <template>
   <div class="container mx-auto">
-    <div class="my-6 sm:my-12">
-      <div class="relative">
-        <div>
-          <VueSlickCarousel :arrows="true" :dots="true">
-            <div>
-                <div class="one">
-                    <p>One</p>
-                </div>
-            </div>
-            <div>
-                <div class="two">
-                    <p>Two</p>
-                </div>
-            </div>
-            <div>
-                <div class="three">
-                    <p>Three</p>
-                </div>
-            </div>
-          </VueSlickCarousel>
-        </div>
-
-        <div class="absolute top-0">
-          <TheHeader />
-        </div>
+    <div class="relative">
+      <div>
+        <VueSlickCarousel :arrows="true" :dots="true">
+          <div>
+              <div class="one">
+                  <p>One</p>
+              </div>
+          </div>
+          <div>
+              <div class="two">
+                  <p>Two</p>
+              </div>
+          </div>
+          <div>
+              <div class="three">
+                  <p>Three</p>
+              </div>
+          </div>
+        </VueSlickCarousel>
       </div>
 
+      <div class="absolute top-0">
+        <TheHeader />
+      </div>
+    </div>
+
+    <div class="my-6 sm:my-12">
       <h2
         class="mt-16 lg:mt-32 text-2xl tracking-loose leading-10 font-bold sm:text-5xl sm:leading-none md:text-6xl"
         data-aos="fade-up"
