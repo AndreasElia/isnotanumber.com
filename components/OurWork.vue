@@ -12,7 +12,7 @@
       </div>
     </VueSlickCarousel>
 
-    <div class="absolute top-0 flex w-full">
+    <div class="absolute top-0 flex w-full h-full">
         <div class="w-1/2 h-full" @click="showPrev"></div>
         <div class="w-1/2 h-full" @click="showNext"></div>
     </div>
