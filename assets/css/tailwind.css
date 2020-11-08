@@ -5,5 +5,29 @@
 @import 'tailwindcss/utilities';
 
 .all-the-same {
-    background: url('~assets/images/all-the-same.svg');
+    background-image: url('~assets/images/all-the-same.svg');
+}
+
+.slick-slider {
+    height: 100vh;
+}
+
+.one, .two, .three {
+    background-size: cover;
+    background-position: 50%;
+    background-size: cover;
+    height: 100vh;
+    transition: height .6s cubic-bezier(.645,.045,.355,1);
+}
+
+.one {
+    background-image: url('~assets/images/one.png');
+}
+
+.two {
+    background-image: url('~assets/images/two.png');
+}
+
+.three {
+    background-image: url('~assets/images/three.png');
 }

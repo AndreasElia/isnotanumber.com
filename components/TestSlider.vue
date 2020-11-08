@@ -1,10 +1,21 @@
 <template>
   <div>
     <VueSlickCarousel :arrows="true" :dots="true">
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
-      <div>4</div>
+      <div>
+          <div class="one">
+              <p>One</p>
+          </div>
+      </div>
+      <div>
+          <div class="two">
+              <p>Two</p>
+          </div>
+      </div>
+      <div>
+          <div class="three">
+              <p>Three</p>
+          </div>
+      </div>
     </VueSlickCarousel>
   </div>
 </template>
