@@ -1,7 +1,7 @@
 
 export default {
   mode: 'universal',
-  target: 'static',
+  target: 'server',
   router: {
     base: '/',
     extendRoutes(routes, resolve) {
