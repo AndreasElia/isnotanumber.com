@@ -8,6 +8,10 @@
     background-image: url('~assets/images/all-the-same.svg');
 }
 
+.slick-slide {
+    outline: none;
+}
+
 .one, .two, .three {
     background-size: cover;
     background-position: 50%;

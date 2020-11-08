@@ -1,6 +1,6 @@
 <template>
   <div>
-    <VueSlickCarousel :arrows="false" :dots="false">
+    <VueSlickCarousel ref="carousel" :arrows="false" :dots="false">
       <div>
         <div class="one"></div>
       </div>
@@ -11,6 +11,11 @@
         <div class="three"></div>
       </div>
     </VueSlickCarousel>
+
+    <div class="absolute top-0 flex w-full">
+        <div class="w-1/2 h-full" @click="showPrev"></div>
+        <div class="w-1/2 h-full" @click="showNext"></div>
+    </div>
   </div>
 </template>
 
@@ -20,6 +25,14 @@ import 'vue-slick-carousel/dist/vue-slick-carousel.css'
 import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 
 export default {
-  components: { VueSlickCarousel }
+  components: { VueSlickCarousel },
+  methods: {
+    showPrev() {
+      this.$refs.carousel.prev()
+    },
+    showNext() {
+      this.$refs.carousel.next()
+    }
+  }
 }
 </script>
