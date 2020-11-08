@@ -1,15 +1,11 @@
 <template>
   <div class="my-6 container mx-auto sm:my-12">
-    <div class="flex justify-between items-center">
-      <logo />
-
-      <NuxtLink :to="{ name: 'blog' }">
-        Blog
-      </NuxtLink>
-    </div>
+    <the-header />
 
     <div
       class="mt-16 lg:mt-32 w-full flex items-center justify-center h-64 bg-gray-400 rounded-md overflow-hidden relative bg-cover bg-center bg-opacity-25"
+      data-aos="fade-up"
+      data-aos-delay="200"
       v-bind:style="{ backgroundImage: `url(${article.img})` }"
     >
       <div class="bg-black bg-opacity-50 absolute w-full h-full z-10"></div>
@@ -18,15 +14,16 @@
       </h2>
     </div>
 
-    <!-- Article -->
-    <article class="mt-16 md:mt-32 lg:mt-40 text-white prose lg:prose-xl">
+    <article
+      class="mt-16 md:mt-32 lg:mt-40 text-white prose lg:prose-xl"
+      data-aos="fade-up"
+      data-aos-delay="400"
+    >
       <nuxt-content :document="article" />
     </article>
 
-    <!-- All good with you -->
     <all-the-same />
 
-    <!-- Footer -->
     <the-footer />
   </div>
 </template>

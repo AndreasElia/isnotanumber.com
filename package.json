@@ -16,7 +16,8 @@
     "@nuxt/content": "^1.10.0",
     "@tailwindcss/typography": "^0.2.0",
     "aos": "^3.0.0-beta.6",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "vue-slick-carousel": "^1.0.6"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",
@@ -25,6 +26,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^6.1.0",
     "eslint-plugin-nuxt": ">=0.4.2",
+    "file-loader": "^6.2.0",
     "push-dir": "^0.4.1"
   }
 }

@@ -54,7 +54,8 @@ module.exports = {
     require('@tailwindcss/typography'),
   ],
   purge: {
-    enabled: process.env.NODE_ENV === 'production',
+    // enabled: process.env.NODE_ENV === 'production',
+    enabled: true,
     content: [
       'components/**/*.vue',
       'layouts/**/*.vue',
@@ -63,7 +64,7 @@ module.exports = {
       'nuxt.config.js',
     ],
     options: {
-      whitelist: [
+      safelist: [
         'h1',
         'h2',
         'h3',
@@ -74,7 +75,8 @@ module.exports = {
         'antialiased',
         'text-white',
         'bg-gray-500',
-      ]
+      ],
+      safelistPatterns: [/^aos-/],
     }
   }
 }

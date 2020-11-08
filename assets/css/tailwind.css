@@ -3,3 +3,7 @@
 @import 'tailwindcss/components';
 /* purgecss end ignore */
 @import 'tailwindcss/utilities';
+
+.all-the-same {
+    background: url('~assets/images/all-the-same.svg');
+}

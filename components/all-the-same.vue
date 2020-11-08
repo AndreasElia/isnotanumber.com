@@ -1,7 +1,8 @@
 <template>
   <div
-    class="mt-12 px-6 lg:px-32 py-10 lg:py-20 text-center bg-blue-500 rounded-lg"
+    class="mt-12 px-6 lg:px-32 py-10 lg:py-20 text-center bg-blue-500 bg-cover bg-center rounded-lg all-the-same"
     data-aos="fade-up"
+    data-aos-delay="600"
   >
     <h3 class="font-serif font-semibold lg:text-4xl">
       If it's all the same with you,
