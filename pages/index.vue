@@ -21,7 +21,7 @@
         </VueSlickCarousel>
       </div>
 
-      <div class="absolute top-0">
+      <div class="absolute top-0 py-6 sm:py-12">
         <TheHeader />
       </div>
     </div>
