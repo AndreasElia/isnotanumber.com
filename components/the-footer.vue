@@ -31,7 +31,7 @@
 
     <!-- Temp fix, waiting on https://github.com/nuxt-community/tailwindcss-module/issues/124 -->
     <div
-      class="font-sans antialiased text-white bg-gray-500 aos-animate hidden"
+      class="antialiased text-white bg-gray-500 aos-animate hidden"
       style="display: none !important"
     ></div>
   </div>

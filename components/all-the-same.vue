@@ -4,7 +4,7 @@
     data-aos="fade-up"
     data-aos-delay="600"
   >
-    <h3 class="font-serif font-semibold lg:text-4xl">
+    <h3 class="font-semibold lg:text-4xl">
       If it's all the same with you,
       <br class="hidden md:block" />
       we think you deserve better.
