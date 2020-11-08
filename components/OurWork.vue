@@ -1,21 +1,17 @@
 <template>
-  <VueSlickCarousel :arrows="false" :dots="false">
-    <div>
-      <div class="one">
-        <p>One</p>
+  <div>
+    <VueSlickCarousel :arrows="false" :dots="false">
+      <div>
+        <div class="one"></div>
       </div>
-    </div>
-    <div>
-      <div class="two">
-        <p>Two</p>
+      <div>
+        <div class="two"></div>
       </div>
-    </div>
-    <div>
-      <div class="three">
-        <p>Three</p>
+      <div>
+        <div class="three"></div>
       </div>
-    </div>
-  </VueSlickCarousel>
+    </VueSlickCarousel>
+  </div>
 </template>
 
 <script>
