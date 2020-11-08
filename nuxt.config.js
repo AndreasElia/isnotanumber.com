@@ -29,22 +29,18 @@ export default {
   ** Customize the progress-bar color
   */
   loading: { color: '#fff' },
-  components: {
-    dirs: [
-      '~/components',
-    ]
-  },
+  components: true,
   /*
   ** Global CSS
   */
   css: [
-    'aos/dist/aos.css',
+    // 'aos/dist/aos.css',
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/aos.js',
+    // '@/plugins/aos.js',
   ],
   /*
   ** Nuxt.js dev-modules
