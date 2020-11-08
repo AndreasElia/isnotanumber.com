@@ -38,13 +38,13 @@ export default {
   ** Global CSS
   */
   css: [
-    'aos/dist/aos.css',
+    // 'aos/dist/aos.css',
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/aos.js',
+    // '@/plugins/aos.js',
   ],
   /*
   ** Nuxt.js dev-modules
