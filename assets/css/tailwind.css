@@ -8,10 +8,6 @@
     background-image: url('~assets/images/all-the-same.svg');
 }
 
-.slick-slider {
-    height: 100vh;
-}
-
 .one, .two, .three {
     background-size: cover;
     background-position: 50%;
