@@ -8,7 +8,7 @@
     background-image: url('~assets/images/all-the-same.svg');
 }
 
-.slick-slide {
+:focus {
     outline: none;
 }
 
