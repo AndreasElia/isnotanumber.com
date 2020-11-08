@@ -13,6 +13,7 @@
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
+    "nuxt-edge": "latest",
     "@nuxt/content": "^1.10.0",
     "@nuxt/core": "^2.0.0",
     "@tailwindcss/typography": "^0.2.0",
@@ -21,7 +22,6 @@
     "vue-slick-carousel": "^1.0.6"
   },
   "devDependencies": {
-    "nuxt-edge": "^2.11.0-26275689.64fb46c0",
     "@nuxtjs/eslint-module": "^3.0.0",
     "@nuxtjs/tailwindcss": "^3.2.0"
   }

@@ -1,6 +1,6 @@
 <template>
   <div class="my-6 container mx-auto sm:my-12">
-    <the-header />
+    <TheHeader />
 
     <div
       class="mt-16 lg:mt-32 w-full flex items-center justify-center h-64 bg-gray-400 rounded-md overflow-hidden relative bg-cover bg-center bg-opacity-25"
@@ -22,9 +22,9 @@
       <nuxt-content :document="article" />
     </article>
 
-    <all-the-same />
+    <AllTheSame />
 
-    <the-footer />
+    <TheFooter />
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="my-6 container mx-auto sm:my-12">
-    <the-header />
+    <TheHeader />
 
     <h2
       class="mt-16 lg:mt-32 text-2xl tracking-loose leading-10 font-bold sm:text-5xl sm:leading-none md:text-6xl"
@@ -61,8 +61,8 @@
       </NuxtLink>
     </div>
 
-    <all-the-same />
+    <AllTheSame />
 
-    <the-footer />
+    <TheFooter />
   </div>
 </template>
