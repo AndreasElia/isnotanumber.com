@@ -3,7 +3,14 @@ export default {
   mode: 'universal',
   target: 'static',
   router: {
-    base: '/'
+    base: '/',
+    extendRoutes(routes, resolve) {
+      routes.push({
+        name: 'custom',
+        path: '*',
+        component: resolve(__dirname, 'pages/404.vue')
+      })
+    }
   },
   generate: {
     fallback: true
