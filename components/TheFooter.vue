@@ -1,5 +1,5 @@
 <template>
-  <div class="my-16 text-xs text-gray-400 text-center md:my-20">
+  <div class="my-16 text-xs text-center text-gray-400 md:my-20">
     <div class="text-center">
       <p>
         The Garden Cottage, Walnut Tree Farm, Corse Lawn, Gloucester, United
@@ -31,7 +31,7 @@
 
     <!-- Temp fix, waiting on https://github.com/nuxt-community/tailwindcss-module/issues/124 -->
     <div
-      class="antialiased text-white bg-gray-500 aos-animate hidden"
+      class="hidden antialiased text-white bg-gray-500 aos-animate"
       style="display: none !important"
     ></div>
   </div>

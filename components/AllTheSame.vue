@@ -1,6 +1,6 @@
 <template>
   <div
-    class="mt-12 px-6 lg:px-32 py-10 lg:py-20 text-center bg-blue-500 bg-cover bg-center all-the-same"
+    class="px-6 py-10 mt-12 text-center bg-blue-500 bg-center bg-cover lg:px-32 lg:py-20 all-the-same"
     data-aos="fade-up"
     data-aos-delay="600"
   >

@@ -1,21 +1,21 @@
 <template>
-  <div class="px-5 my-6 container mx-auto sm:px-0 sm:my-12">
+  <div class="container px-5 mx-auto my-6 sm:px-0 sm:my-12">
     <TheHeader />
 
     <div
-      class="mt-16 lg:mt-32 w-full flex items-center justify-center h-64 bg-gray-400 overflow-hidden relative bg-cover bg-center bg-opacity-25"
+      class="relative flex items-center justify-center w-full h-64 mt-16 overflow-hidden bg-gray-400 bg-opacity-25 bg-center bg-cover lg:mt-32"
       data-aos="fade-up"
       data-aos-delay="200"
       v-bind:style="{ backgroundImage: `url(${article.img})` }"
     >
-      <div class="bg-black bg-opacity-50 absolute w-full h-full z-10"></div>
-      <h2 class="text-2xl tracking-loose leading-10 font-bold z-20 sm:text-5xl sm:leading-none md:text-6xl">
+      <div class="absolute z-10 w-full h-full bg-black bg-opacity-50"></div>
+      <h2 class="z-20 text-2xl font-bold leading-10 tracking-loose sm:text-5xl sm:leading-none md:text-6xl">
         {{ article.title }}
       </h2>
     </div>
 
     <article
-      class="mt-16 md:mt-32 lg:mt-40 text-white prose lg:prose-xl"
+      class="mt-16 prose text-white md:mt-32 lg:mt-40 lg:prose-xl"
       data-aos="fade-up"
       data-aos-delay="400"
     >
