@@ -5,9 +5,9 @@
         <logo />
 
         <div class="space-y-2" aria-label="Menu Close">
-          <span class="bg-white h-1 w-10"></span>
-          <span class="bg-white h-1 w-10"></span>
-          <span class="bg-white h-1 w-10"></span>
+          <span class="w-10 h-1 bg-white"></span>
+          <span class="w-10 h-1 bg-white"></span>
+          <span class="w-10 h-1 bg-white"></span>
         </div>
       </div>
     </div>
