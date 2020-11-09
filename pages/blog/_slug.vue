@@ -3,7 +3,7 @@
     <TheHeader />
 
     <div
-      class="mt-16 lg:mt-32 w-full flex items-center justify-center h-64 bg-gray-400 rounded-md overflow-hidden relative bg-cover bg-center bg-opacity-25"
+      class="mt-16 lg:mt-32 w-full flex items-center justify-center h-64 bg-gray-400 overflow-hidden relative bg-cover bg-center bg-opacity-25"
       data-aos="fade-up"
       data-aos-delay="200"
       v-bind:style="{ backgroundImage: `url(${article.img})` }"

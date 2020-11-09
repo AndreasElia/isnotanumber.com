@@ -20,7 +20,7 @@
       >
         <div class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
           <div
-            class="w-full h-64 bg-gray-400 rounded-md bg-cover bg-center"
+            class="w-full h-64 bg-gray-400 bg-cover bg-center"
             :style="{ backgroundImage: `url(${article.img})` }"
           ></div>
           <h3 class="mt-1">
