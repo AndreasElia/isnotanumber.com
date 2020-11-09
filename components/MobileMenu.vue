@@ -15,22 +15,22 @@
     <div>
       <ul>
         <li style="animation-delay: 0.15s">
-          <a href="/">Home</a>
-        </li>
-        <li style="animation-delay: 0.22s">
-          <a href="/">Home</a>
+          <NuxtLink to="/">Home</NuxtLink>
         </li>
         <li style="animation-delay: 0.33s">
-          <a href="/">Home</a>
+          <NuxtLink to="/balansaplus">balansa+</NuxtLink>
         </li>
         <li style="animation-delay: 0.44s">
-          <a href="/">Home</a>
+          <NuxtLink to="/mygohire">My Go Hire</NuxtLink>
         </li>
         <li style="animation-delay: 0.55s">
-          <a href="/">Home</a>
+          <NuxtLink to="/gradsmart">GradSmart</NuxtLink>
         </li>
         <li style="animation-delay: 0.66s">
-          <a href="/">Home</a>
+          <NuxtLink to="/craftr">Craftr</NuxtLink>
+        </li>
+        <li style="animation-delay: 0.22s">
+          <NuxtLink to="/blog">Blog</NuxtLink>
         </li>
       </ul>
     </div>
