@@ -4,14 +4,14 @@
       <OurWork />
     </div>
 
-    <div class="absolute top-0 w-full py-6 sm:py-12">
+    <div class="px-5 absolute top-0 w-full py-6 sm:px-0 sm:py-12">
       <div class="container mx-auto">
         <TheHeader />
       </div>
     </div>
 
     <div class="container mx-auto">
-      <div class="my-6 sm:my-12">
+      <div class="px-5 my-6 sm:px-0 sm:my-12">
         <h2
           class="mt-16 lg:mt-32 text-2xl tracking-loose leading-10 font-bold sm:text-5xl sm:leading-none md:text-6xl"
           data-aos="fade-up"

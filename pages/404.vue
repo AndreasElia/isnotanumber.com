@@ -1,5 +1,5 @@
 <template>
-  <div class="my-6 container mx-auto sm:my-12">
+  <div class="px-5 my-6 container mx-auto sm:px-0 sm:my-12">
     <TheHeader />
 
     <h2
