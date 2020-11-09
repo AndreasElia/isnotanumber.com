@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="relative">
     <VueSlickCarousel ref="carousel" :arrows="false" :dots="false">
       <div>
         <div class="one"></div>
