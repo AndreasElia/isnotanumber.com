@@ -1,9 +1,9 @@
 <template>
-  <div class="px-5 my-6 container mx-auto sm:px-0 sm:my-12">
+  <div class="container px-5 mx-auto my-6 sm:px-0 sm:my-12">
     <TheHeader />
 
     <h2
-      class="mt-16 lg:mt-32 text-2xl tracking-loose leading-10 font-bold sm:text-5xl sm:leading-none md:text-6xl"
+      class="mt-16 text-2xl font-bold leading-10 lg:mt-32 tracking-loose sm:text-5xl sm:leading-none md:text-6xl"
       data-aos="fade-up"
       data-aos-delay="200"
     >
