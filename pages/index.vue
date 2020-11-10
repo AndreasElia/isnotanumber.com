@@ -26,7 +26,7 @@
 
         <div class="grid grid-cols-1 mt-16 md:mt-32 lg:mt-40 md:grid-cols-2 gap-x-8 gap-y-12">
           <div data-aos="fade-up" data-aos-delay="400">
-            <div class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+            <div class="transition duration-500 ease-in-out transform hover:-translate-y-1">
               <div
                 class="w-full h-64 bg-gray-400 bg-center bg-cover"
                 style="background-image: url(https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);"
@@ -37,7 +37,7 @@
             </div>
           </div>
           <div data-aos="fade-up" data-aos-delay="600">
-            <div class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+            <div class="transition duration-500 ease-in-out transform hover:-translate-y-1">
               <div
                 class="w-full h-64 bg-gray-400 bg-center bg-cover"
                 style="background-image: url(https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);"
@@ -48,7 +48,7 @@
             </div>
           </div>
           <div data-aos="fade-up" data-aos-delay="800">
-            <div class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+            <div class="transition duration-500 ease-in-out transform hover:-translate-y-1">
               <div
                 class="w-full h-64 bg-gray-400 bg-center bg-cover"
                 style="background-image: url(https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);"
@@ -59,7 +59,7 @@
             </div>
           </div>
           <div data-aos="fade-up" data-aos-delay="400">
-            <div class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+            <div class="transition duration-500 ease-in-out transform hover:-translate-y-1">
               <div
                 class="w-full h-64 bg-gray-400 bg-center bg-cover"
                 style="background-image: url(https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);"
