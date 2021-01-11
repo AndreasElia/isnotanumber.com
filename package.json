@@ -1,28 +1,12 @@
 {
-  "name": "notanumber",
+  "name": "isnotanumber.com",
   "version": "1.0.0",
-  "description": "Why fit in when you can stand out.",
-  "author": "Not a Number",
-  "private": true,
+  "description": "Not a Number",
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "dev": "npx tailwindcss build -o ./public/tailwind.css",
+    "build": "cross-env NODE_ENV=production npx tailwindcss build -o ./public/tailwind.css"
   },
   "dependencies": {
-    "@nuxt/content": "^1.10.0",
-    "@nuxt/core": "^2.0.0",
-    "@tailwindcss/typography": "^0.2.0",
-    "aos": "^3.0.0-beta.6",
-    "json5": "^2.1.3",
-    "nuxt-edge": "latest",
-    "vue-slick-carousel": "^1.0.6"
-  },
-  "devDependencies": {
-    "@nuxtjs/eslint-module": "^3.0.0",
-    "@nuxtjs/tailwindcss": "^3.2.0"
+    "cross-env": "^7.0.3"
   }
 }
