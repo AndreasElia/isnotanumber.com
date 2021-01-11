@@ -6,7 +6,7 @@
     "dev": "npx tailwindcss build -o ./public/tailwind.css",
     "build": "cross-env NODE_ENV=production npx tailwindcss build -o ./public/tailwind.css"
   },
-  "dependencies": {
+  "devDependencies": {
     "cross-env": "^7.0.3"
   }
 }
